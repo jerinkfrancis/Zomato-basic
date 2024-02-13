@@ -98,6 +98,13 @@
       gap: 15px;
       padding: 0 30px;
     }
+
+    .explore__restaurant__lists {
+        margin-top: 45px;
+          display: flex;
+          gap: 15px;
+          padding: 0 30px;
+        }
   
     .explore__menu__container {
       position: relative;
@@ -145,6 +152,10 @@
     .explore__menu__lists {
       gap: 25px;
     }
+
+    .explore__restaurant__lists {
+        gap: 25px;
+      }
   
      .navbar__brand {
        width: 150px;
@@ -166,4 +177,97 @@
      .explore__menu__text {
        font-size: 48px;
      }
+
+     .explore__restaurant__text {
+        font-size: 48px;
+      }
   }
+
+  .explore__restaurant__container {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+  }
+
+  .explore__restaurant__content {
+    display: flex;
+    align-items: center;
+  }
+
+  .restaurant__card {
+    width: calc(25% - 10px); /* Adjust as needed */
+  }
+  
+  .restaurant__card__image__container {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .restaurant__image {
+    width: 100%;
+    display: block;
+  }
+
+  .explore__restaurant__images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+  
+  .explore__restaurant__text {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 800;
+    flex: 1;
+    color: #1d3557;
+  }
+
+  .footer {
+    
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+         #dd2476 51%,
+         #ff512f 100%
+        );
+        border-radius: 8px;
+    padding: 20px 0;
+  }
+  
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer .footer-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  
+  .footer .footer-links li {
+    margin-bottom: 10px;
+  }
+  
+  .footer .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .footer .logo-container {
+    text-align: left;
+  }
+  
+  .footer .footer-logo {
+    width: 300px; /* Adjust width as needed */
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
