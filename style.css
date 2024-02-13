@@ -193,6 +193,13 @@
     align-items: center;
   }
 
+  .row {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+
   .restaurant__card {
     width: calc(25% - 10px); /* Adjust as needed */
   }
@@ -208,6 +215,7 @@
   }
 
   .explore__restaurant__images {
+    margin-left: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -222,6 +230,7 @@
     font-weight: 800;
     flex: 1;
     color: #1d3557;
+    width: 50%;
   }
 
   .footer {
